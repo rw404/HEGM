@@ -1,0 +1,10 @@
+torch==2.11.0
+lightning==2.6.1
+polars==1.35.2
+numpy==2.2.6
+scipy==1.15.3
+implicit==0.7.2
+pyyaml==6.0.3
+tqdm==4.67.3
+huggingface_hub==0.36.2
+gdown==6.1.0
