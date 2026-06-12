@@ -16,8 +16,8 @@ import zipfile
 import shutil
 
 # Google Drive file IDs
-SPLITS_FILE_ID = "1KEMKP05hLy8HT19E813bJAa4NBiCLQ_S"
-CHECKPOINTS_FILE_ID = "12J9uiFLiUvqW2xczxt2HOn_8ukhBZlcx"
+SPLITS_FILE_ID = "1z1jjwJrJFOpwD-jf4Dmy-LSMNkno2XxZ"
+CHECKPOINTS_FILE_ID = "1fyrOO0mhnT6cjKUofwRIE1mkQW5nSwB0"
 
 
 def check_gdown():
