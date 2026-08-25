@@ -1,5 +1,7 @@
 # HEGM: Hierarchical Exponential-Gaussian Mixtures for Watch-Time Distribution Prediction
 
+
+[![arXiv](https://img.shields.io/badge/arXiv-2608.23356-eb6834?style=flat-square)](https://arxiv.org/abs/2608.23356)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.11.0-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-Apache--2.0-9cf?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
