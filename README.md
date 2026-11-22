@@ -2,7 +2,7 @@
 
 
 [![arXiv](https://img.shields.io/badge/arXiv-2608.23356-eb6834?style=flat-square)](https://arxiv.org/abs/2608.23356)
-[![Hugging Face checkpoints](https://img.shields.io/badge/Hugging%20Face-8%20checkpoints-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/collections/unKnw0n/hegm-pretrained-checkpoints-6b02aaba69bc86a3fd6861f1)
+[![Hugging Face checkpoints](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-8%20checkpoints-FFD21E?style=flat-square)](https://huggingface.co/collections/unKnw0n/hegm-pretrained-checkpoints-6b02aaba69bc86a3fd6861f1)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.11.0-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-Apache--2.0-9cf?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
