@@ -2,6 +2,7 @@
 
 
 [![arXiv](https://img.shields.io/badge/arXiv-2608.23356-eb6834?style=flat-square)](https://arxiv.org/abs/2608.23356)
+[![Hugging Face checkpoints](https://img.shields.io/badge/Hugging%20Face-8%20checkpoints-FFD21E?style=flat-square&logo=huggingface&logoColor=black)](https://huggingface.co/collections/unKnw0n/hegm-pretrained-checkpoints-6b02aaba69bc86a3fd6861f1)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.11.0-ee4c2c?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/License-Apache--2.0-9cf?style=flat-square)](https://opensource.org/licenses/Apache-2.0)
@@ -10,7 +11,7 @@
 
 ¹ AI VK, VK, Moscow, Russia  ·  ² Lomonosov Moscow State University, Moscow, Russia
 
-[Quick start](#quick-start)  ·  [Results](#results)  ·  [Training](#training)  ·  [Data](#data)  ·  [Citation](#citation)
+[Quick start](#quick-start)  ·  [Checkpoints](#pretrained-checkpoints)  ·  [Results](#results)  ·  [Training](#training)  ·  [Data](#data)  ·  [Citation](#citation)
 
 ---
 
@@ -41,6 +42,22 @@ the remaining rows.
 
 Rebuilding the data from raw sources or training a model from scratch is also
 supported; see [Data](#data) and [Training](#training).
+
+## Pretrained checkpoints
+
+All eight pre-trained checkpoints are hosted on the Hugging Face Hub. The
+[HEGM collection](https://huggingface.co/collections/unKnw0n/hegm-pretrained-checkpoints-6b02aaba69bc86a3fd6861f1)
+brings together the paper and all released models:
+
+| Dataset | K=3 | K=6 | K=9 | K=12 |
+| ------- | --- | --- | --- | ---- |
+| KuaiRec | [K3](https://huggingface.co/glvsks/HEGM-KuaiRec-K3) | [K6](https://huggingface.co/glvsks/HEGM-KuaiRec-K6) | [K9](https://huggingface.co/glvsks/HEGM-KuaiRec-K9) | [K12](https://huggingface.co/glvsks/HEGM-KuaiRec-K12) |
+| VK-LSVD | [K3](https://huggingface.co/glvsks/HEGM-VK-LSVD-K3) | [K6](https://huggingface.co/glvsks/HEGM-VK-LSVD-K6) | [K9](https://huggingface.co/glvsks/HEGM-VK-LSVD-K9) | [K12](https://huggingface.co/glvsks/HEGM-VK-LSVD-K12) |
+
+Each model repository includes `last.ckpt`, its corresponding `config.yaml`, and a
+model card with reproduction instructions. Download the processed splits with
+`python scripts/download_artifacts.py --splits`, place the selected checkpoint at
+`checkpoints/<dataset>_k<K>/last.ckpt`, and follow [Evaluation](#evaluation).
 
 ## Results
 
